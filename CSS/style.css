@@ -1,0 +1,53 @@
+/* For text #fff000 --- with black border*/ 
+/*Yellow  #ff1900 */ 
+/*Orange  #ffaa00 */ 
+
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+/* ❤  *//*❤   *//* ❤  *//* ❤  *//* ❤  *//* ❤  *//* ❤  *//* ❤  *//* ❤ */
+/* copyright ©tauhazmat All rights reserved */ 
+/* ❤  *//*❤   *//* ❤  *//* ❤  *//* ❤  *//* ❤  *//* ❤  *//* ❤  *//* ❤ */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    width: 270px;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.btn-div button{
+    width: 100%;
+    padding: 20px 30px;
+    border: 4px solid #ffaa00;
+    color: #fff;
+    font-weight: 700;
+    background-color: #ec402d;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.multiplayer:hover {
+    cursor:not-allowed;
+}
+
